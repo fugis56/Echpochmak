@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Underdog');
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+nav{
+	align-self: flex-start;
+	color: #000;
+}
+
+
+nav a {
+	text-decoration: none;
+	cursor:url('images/cursor_1.png'), pointer; 
+	margin: 15px 25px;
+	padding: 15px 20px;
+	border-radius: 10px;
+	color: #047681;
+}
+
+nav a:hover {
+	border: 2px solid #fee3de;
+	color: #fee3de;
+	background-color:#047681;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	
+}
+
+main {
+	display: flex;
+	margin: 50px;
+	flex-direction: column;
+	font-family: 'Underdog', cursive;
+}
+
+#movie{
+	align-self: center;
+}
+
+#music{
+	align-self: flex-end;
+}
+
+#reminder ol{
+	list-style-type: upper-roman;
+	width: 500px;
+	list-style-position: inside;
+	color: #00bfb4;
+	
+}
+
+#movie ul{
+	list-style-image:url('images/face_point.png');
+	
+	
+	
+}
+
+#music ul{
+	list-style-image:url('images/hands_point.png');
+	width: 800px;
+}
+
+#movie li{
+	background-color:#047681;
+	margin: 10px;
+	list-style-position: inside;
+}
+
+#music li{
+	background-color:#fee3de;
+	margin: 10px;
+	
+}
+
+#reminder ol:hover {
+	border: 2px solid #fee3de;
+	color: #fee3de;
+	background-color:#047681;
+	text-align: center;
+}
+
+#movie li:hover {
+	border: 2px solid #fee3de;
+	color: #fee3de;
+	background-color:#047681;
+}
+
+#music li:hover{
+	color:#047681;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+h2{
+	
+	font-size: 50px;
+}
+
+li{
+	font-size: 30px;
+}
